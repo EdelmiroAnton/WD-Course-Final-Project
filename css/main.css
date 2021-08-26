@@ -1,0 +1,877 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  background-color: white;
+  width: 100%;
+  height: 100px; }
+
+.indexCont {
+  background-color: #fff1e0;
+  height: 100%;
+  margin-bottom: auto; }
+
+.introIndex {
+  text-align: center;
+  color: #9e140a;
+  font-family: 'Comic Neue', cursive;
+  padding: 50px;
+  font-size: 40px; }
+
+.frase {
+  text-align: center;
+  font-family: 'Tangerine', cursive;
+  font-size: 40px;
+  margin-bottom: 5px; }
+
+.parrafoIndex {
+  text-align: justify;
+  font-family: sans-serif;
+  line-height: 25px;
+  margin: auto;
+  display: flex;
+  align-items: center; }
+
+.rounded-3 {
+  margin-right: 10px; }
+
+.ultimasFotos {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px; }
+
+.ultimasFotos img:hover {
+  transition: all 0.2s ease-in-out;
+  filter: opacity(0.8); }
+
+.parrafo {
+  color: black;
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: justify;
+  margin: 25px 0 5px 20px;
+  line-height: 25px; }
+
+.parrafo2 {
+  color: black;
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: justify;
+  margin: 25px 0 20px 20px;
+  line-height: 25px; }
+
+.camara {
+  width: 250px;
+  height: 250px;
+  float: left;
+  padding: 5px;
+  margin: 0 5px 2px 0;
+  border-radius: 15px; }
+
+.nenaYBebe {
+  width: 300px;
+  height: 250px;
+  float: right;
+  padding: 5px;
+  margin: 0 5px 2px 0px;
+  border-radius: 15px; }
+
+@media only screen and (max-width: 767px) {
+  .sesionesTitulo {
+    color: rgba(240, 77, 147, 0.796);
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px grey;
+    margin-left: 50px; }
+  .videos {
+    display: flex;
+    flex-wrap: wrap; }
+  .video1 h2 {
+    color: #827d83;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    margin-left: 50px; }
+  .iframe1 {
+    padding: 5px;
+    margin-left: -50px;
+    width: 400px;
+    height: 300px; }
+  .video2 h2 {
+    color: #827d83;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    margin-left: 50px; }
+  .iframe2 {
+    padding: 5px;
+    margin-left: -50px;
+    width: 400px;
+    height: 300px; }
+  .video3 {
+    margin-left: 5px; }
+  .video3 h2 {
+    color: #827d83;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    margin-left: 50px; }
+  .iframe3 {
+    padding: 5px;
+    margin-left: -50px;
+    width: 400px;
+    height: 300px; }
+  .galeria {
+    color: rgba(240, 77, 147, 0.796);
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px  grey; }
+  .contenedor {
+    height: fit-content;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(4, 200px);
+    margin-bottom: 150px;
+    margin-right: 5px;
+    grid-column-gap: 2%;
+    grid-row-gap: 4%; }
+  .item {
+    border: 2px solid grey;
+    height: auto;
+    width: auto;
+    border-radius: 20px; }
+  .caja1 {
+    background-image: url(../imagenes/maternity1.jpg);
+    background-size: cover; }
+  .caja2 {
+    background-image: url(../imagenes/maternity2.jpg);
+    background-size: cover;
+    background-position: center; }
+  .caja3 {
+    background-image: url(../imagenes/maternity3.jpg);
+    background-size: cover;
+    background-position: center; }
+  .caja4 {
+    background-image: url(../imagenes/new_born1.jpg);
+    background-size: cover;
+    background-position: center; }
+  .caja5 {
+    background-image: url(../imagenes/new_born2.jpg);
+    background-size: cover;
+    background-position: center; }
+  .caja6 {
+    background-image: url(../imagenes/new_born3.jpg);
+    background-size: cover;
+    background-position: center; }
+  .caja7 {
+    background-image: url(../imagenes/primer_añito2.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5; } }
+
+@media only screen and (max-width: 1302px) {
+  .sesionesTitulo {
+    color: rgba(240, 77, 147, 0.796);
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px grey;
+    /* text-shadow: 2px 2px 2px  grey; */ }
+  .videos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 14%; }
+  .video1 h2 {
+    color: #827d83;
+    font-family: 'Comfortaa', cursive;
+    text-align: center; }
+  .iframe1 {
+    padding: 25px;
+    width: 560px;
+    height: 315px; }
+  .video2 h2 {
+    color: #827d83;
+    font-family: 'Comfortaa', cursive;
+    text-align: center; }
+  .iframe2 {
+    padding: 25px;
+    width: 560px;
+    height: 315px; }
+  .video3 h2 {
+    color: #827d83;
+    font-family: 'Comfortaa', cursive;
+    text-align: center; }
+  .iframe3 {
+    padding: 25px;
+    width: 560px;
+    height: 315px; }
+  .galeria {
+    color: rgba(240, 77, 147, 0.796);
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px  grey; }
+  .contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(4, 200px);
+    justify-content: center;
+    margin-bottom: 150px;
+    grid-column-gap: 2%;
+    grid-row-gap: 4%; }
+  .item {
+    border: 2px solid grey;
+    height: auto;
+    width: auto;
+    border-radius: 20px; }
+  .caja1 {
+    background-image: url(../imagenes/maternity1.jpg);
+    background-size: cover; }
+  .caja2 {
+    background-image: url(../imagenes/maternity2.jpg);
+    background-size: cover;
+    background-position: center; }
+  .caja3 {
+    background-image: url(../imagenes/maternity3.jpg);
+    background-size: cover;
+    background-position: center; }
+  .caja4 {
+    background-image: url(../imagenes/new_born1.jpg);
+    background-size: cover;
+    background-position: center; }
+  .caja5 {
+    background-image: url(../imagenes/new_born2.jpg);
+    background-size: cover;
+    background-position: center; }
+  .caja6 {
+    background-image: url(../imagenes/new_born3.jpg);
+    background-size: cover;
+    background-position: center; }
+  .caja7 {
+    background-image: url(../imagenes/primer_añito2.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5; } }
+
+@media only screen and (min-width: 1303px) {
+  .sesionesTitulo {
+    color: rgba(240, 77, 147, 0.796);
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px grey;
+    /* text-shadow: 2px 2px 2px  grey; */ }
+  .videos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 14%; }
+  .video1 h2 {
+    color: #827d83;
+    font-family: 'Comfortaa', cursive;
+    text-align: center; }
+  .iframe1 {
+    padding: 25px;
+    width: 560px;
+    height: 315px; }
+  .video2 h2 {
+    color: #827d83;
+    font-family: 'Comfortaa', cursive;
+    text-align: center; }
+  .iframe2 {
+    padding: 25px;
+    width: 560px;
+    height: 315px; }
+  .video3 {
+    margin-left: 20%; }
+  .video3 h2 {
+    color: #827d83;
+    font-family: 'Comfortaa', cursive;
+    text-align: center; }
+  .iframe3 {
+    padding: 25px;
+    width: 560px;
+    height: 315px; }
+  .galeria {
+    color: rgba(240, 77, 147, 0.796);
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px  grey; }
+  .contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(4, 200px);
+    justify-content: center;
+    margin-bottom: 150px;
+    grid-column-gap: 2%;
+    grid-row-gap: 4%; }
+  .item {
+    border: 2px solid grey;
+    height: auto;
+    width: auto;
+    border-radius: 20px; }
+  .caja1 {
+    background-image: url(../imagenes/maternity1.jpg);
+    background-size: cover; }
+  .caja2 {
+    background-image: url(../imagenes/maternity2.jpg);
+    background-size: cover;
+    background-position: center; }
+  .caja3 {
+    background-image: url(../imagenes/maternity3.jpg);
+    background-size: cover;
+    background-position: center; }
+  .caja4 {
+    background-image: url(../imagenes/new_born1.jpg);
+    background-size: cover;
+    background-position: center; }
+  .caja5 {
+    background-image: url(../imagenes/new_born2.jpg);
+    background-size: cover;
+    background-position: center; }
+  .caja6 {
+    background-image: url(../imagenes/new_born3.jpg);
+    background-size: cover;
+    background-position: center; }
+  .caja7 {
+    background-image: url(../imagenes/primer_añito2.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5; } }
+
+@media only screen and (min-width: 401px) and (max-width: 768px) {
+  .main__fotos {
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .main__fotos th {
+    padding: 20px; }
+  .main__fotos img {
+    border-radius: 5%;
+    border: black 1px solid; }
+  .main__fotos--maternidad:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: grayscale(1); }
+  .main__fotos--newBorn:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: grayscale(1); }
+  .main__fotos--miniBaby:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: grayscale(1); }
+  .main__fotos--unAño:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: grayscale(1); }
+  .infantiles:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: grayscale(1); }
+  .main__fotos--maternidad {
+    height: 350px;
+    width: 350px; }
+  .main__fotos--newBorn {
+    height: 350px;
+    width: 350px; }
+  .main__fotos--miniBaby {
+    height: 350px;
+    width: 350px; }
+  .main__fotos--unAño {
+    height: 350px;
+    width: 350px; }
+  .main__fotos--infantiles {
+    height: 350px;
+    width: 350px; }
+  .form__comentario {
+    font-family: 'Comfortaa', cursive;
+    margin: 40px 0 20px 20px;
+    color: rgba(240, 77, 147, 0.796);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px grey; }
+  .form__textArea {
+    margin: 0px 10px 10px 80px; }
+  .form__boton {
+    margin: 5px 0 10px 170px; } }
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .main__fotos {
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+  .main__fotos th {
+    padding: 20px; }
+  .main__fotos img {
+    border-radius: 5%;
+    border: black 1px solid; }
+  .main__fotos--maternidad:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: grayscale(1); }
+  .main__fotos--newBorn:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: grayscale(1); }
+  .main__fotos--miniBaby:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: grayscale(1); }
+  .main__fotos--unAño:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: grayscale(1); }
+  .main__fotos--infantiles:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: grayscale(1); }
+  .main__fotos--maternidad {
+    height: 350px;
+    width: 350px; }
+  .main__fotos--newBorn {
+    height: 350px;
+    width: 350px; }
+  .main__fotos--miniBaby {
+    height: 350px;
+    width: 350px; }
+  .main__fotos--unAño {
+    height: 350px;
+    width: 350px; }
+  .main__fotos--infantiles {
+    height: 350px;
+    width: 350px; }
+  .form__comentario {
+    font-family: 'Comfortaa', cursive;
+    margin: 40px 0 20px 20px;
+    color: rgba(240, 77, 147, 0.796);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px grey; }
+  .form__textArea {
+    margin: 0px 10px 10px 30%; }
+  .form__boton {
+    margin: 5px 0 10px 350px; } }
+
+@media only screen and (min-width: 1025px) and (max-width: 1219px) {
+  .main__fotos {
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+  .main__fotos th {
+    padding: 20px; }
+  .main__fotos img {
+    border-radius: 5%;
+    border: black 1px solid; }
+  .main__fotos--maternidad:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: grayscale(1); }
+  .main__fotos--newBorn:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: grayscale(1); }
+  .main__fotos--miniBaby:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: grayscale(1); }
+  .main__fotos--unAño:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: grayscale(1); }
+  .main__fotos--infantiles:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: grayscale(1); }
+  .main__fotos--maternidad {
+    height: 350px;
+    width: 350px; }
+  .main__fotos--newBorn {
+    height: 350px;
+    width: 350px; }
+  .main__fotos--miniBaby {
+    height: 350px;
+    width: 350px; }
+  .main__fotos--unAño {
+    height: 350px;
+    width: 350px; }
+  .main__fotos--infantiles {
+    height: 350px;
+    width: 350px; }
+  .form__comentario {
+    font-family: 'Comfortaa', cursive;
+    margin: 40px 0 20px 20px;
+    color: rgba(240, 77, 147, 0.796);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px grey; }
+  .form__textArea {
+    margin: 0px 10px 10px 40%; }
+  .form__boton {
+    margin: 5px 0 10px 500px; } }
+
+.main--pregunta {
+  color: rgba(240, 77, 147, 0.796);
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 2px grey;
+  margin-top: 20px; }
+
+@media only screen and (min-width: 1220px) and (max-width: 1440px) {
+  .main__fotos {
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .main__fotos th {
+    padding: 20px; }
+  .main__fotos img {
+    border-radius: 5%;
+    border: black 1px solid; }
+  .main__fotos--unAño {
+    margin-top: -150px; }
+  .main__fotos--infantiles {
+    margin-top: -150px; }
+  .main__fotos--newBorn {
+    margin-top: 180px; }
+  .main__fotos--maternidad:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: grayscale(1); }
+  .main__fotos--newBorn:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: grayscale(1); }
+  .main__fotos--miniBaby:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: grayscale(1); }
+  .main__fotos--unAño:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: grayscale(1); }
+  .main__fotos--infantiles:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: grayscale(1); }
+  .main__fotos--maternidad {
+    height: 350px;
+    width: 350px; }
+  .main__fotos--newBorn {
+    height: 350px;
+    width: 350px; }
+  .main__fotos--miniBaby {
+    height: 350px;
+    width: 350px; }
+  .main__fotos--unAño {
+    height: 350px;
+    width: 350px; }
+  .main__fotos--infantiles {
+    height: 350px;
+    width: 350px; }
+  .form__comentario {
+    font-family: 'Comfortaa', cursive;
+    margin: 40px 0 20px 20px;
+    color: rgba(240, 77, 147, 0.796);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px grey; }
+  .form__textArea {
+    margin: 0px 10px 10px 40%; }
+  .form__boton {
+    margin: 5px 0 10px 630px; } }
+
+.main--pregunta {
+  color: rgba(240, 77, 147, 0.796);
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 2px grey; }
+
+@media only screen and (min-width: 401px) and (max-width: 769px) {
+  .form {
+    display: flex;
+    flex-wrap: wrap; }
+  .contenedorform {
+    height: auto;
+    width: 600px;
+    /* background-image: linear-gradient(20deg, rgb(235, 163, 227), white); */
+    margin-left: 40px;
+    margin-right: auto;
+    margin-top: 5px; }
+  .textArea__form {
+    margin-left: 150px;
+    position: absolute;
+    margin-top: 190px;
+    border-color: lightgray; }
+  .margenes__form {
+    margin-bottom: 5px; }
+  .titulo__form {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(240, 77, 147, 0.796);
+    text-shadow: 1px 1px 1px grey;
+    font-size: 25px;
+    margin-bottom: px; }
+  .botones--form {
+    text-align: center;
+    margin-top: 5px; }
+  .ubicacion {
+    margin-left: 40px;
+    margin-right: auto;
+    margin-top: 180px; }
+  .ubicacion h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 45px 0 10px 155px;
+    color: rgba(240, 77, 147, 0.796);
+    font-size: 25px;
+    text-shadow: 1px 1px 1px grey; }
+  .ubicacion .maps {
+    margin-top: 3px;
+    margin-bottom: 70px;
+    margin-left: 50px; } }
+
+@media only screen and (min-width: 770px) and (max-width: 1050px) {
+  .contenedorform {
+    height: auto;
+    width: 600px;
+    /* background-image: linear-gradient(20deg, rgb(235, 163, 227), white); */
+    margin-left: 240px;
+    margin-right: auto;
+    margin-top: 20px; }
+  .textArea__form {
+    margin-left: -10px;
+    position: absolute;
+    margin-top: 0px;
+    border-color: lightgray; }
+  .margenes__form {
+    margin-bottom: 5px; }
+  .titulo__form {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(240, 77, 147, 0.796);
+    text-shadow: 1px 1px 1px grey;
+    font-size: 25px;
+    margin-bottom: px; }
+  .botones--form {
+    text-align: center;
+    margin-top: 5px; }
+  .ubicacion {
+    margin-left: 220px;
+    margin-top: 10px; }
+  .ubicacion h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 45px 0 10px 155px;
+    color: rgba(240, 77, 147, 0.796);
+    font-size: 25px;
+    text-shadow: 1px 1px 1px grey; }
+  .ubicacion .maps {
+    margin-top: 3px;
+    margin-bottom: 70px;
+    margin-left: 90px; } }
+
+@media only screen and (min-width: 1051px) and (max-width: 2000px) {
+  .contenedorform {
+    height: auto;
+    width: 600px;
+    /* background-image: linear-gradient(20deg, rgb(235, 163, 227), white); */
+    margin-left: 40px;
+    margin-right: auto;
+    margin-top: 5px; }
+  .textArea__form {
+    margin-left: -10px;
+    position: absolute;
+    margin-top: 0px;
+    border-color: lightgray; }
+  .margenes__form {
+    margin-bottom: 5px; }
+  .titulo__form {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(240, 77, 147, 0.796);
+    text-shadow: 1px 1px 1px grey;
+    font-size: 25px;
+    margin-bottom: px; }
+  .botones--form {
+    text-align: center;
+    margin-top: 5px; }
+  .ubicacion {
+    margin-left: 680px;
+    margin-top: -300px; }
+  .ubicacion h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 45px 0 10px 155px;
+    color: rgba(240, 77, 147, 0.796);
+    font-size: 25px;
+    text-shadow: 1px 1px 1px grey; }
+  .ubicacion .maps {
+    margin-top: 3px;
+    margin-bottom: 70px;
+    margin-left: 90px; } }
+
+.footer {
+  margin: 200px -10px -10px -10px;
+  font-size: 15px;
+  background-color: #d1d0ce;
+  padding: 40px;
+  text-align: center;
+  margin-top: -5px; }
+
+.footerTexto {
+  font-family: 'Comfortaa', cursive;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  margin-top: 15px; }
+
+.footer__redes {
+  font-size: 40px;
+  display: flex;
+  justify-content: center; }
+
+.footer__redes--btnFace:hover {
+  color: blue;
+  transform: scale(1.5);
+  transition: all 0.1s ease-in-out; }
+
+.footer__redes--btnInsta:hover {
+  color: #e22bc3;
+  transform: scale(1.5);
+  transition: all 0.1s ease-in-out; }
+
+.footer__redes--btnWsp:hover {
+  color: #0aca0a;
+  transform: scale(1.5);
+  transition: all 0.1s ease-in-out; }
+
+.footer__redes--btnInsta {
+  margin-left: 30px; }
+
+.footer__redes--btnWsp {
+  margin-left: 30px; }
+
+@media only screen and (max-width: 767px) {
+  .navbar {
+    font-family: 'Comfortaa', cursive;
+    z-index: 1000;
+    background-color: whitesmoke;
+    opacity: 0.9; }
+  .container-fluid {
+    width: auto; }
+  .navbar li {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold; }
+  .navbar li a {
+    color: red; }
+  .navbar li a:hover {
+    color: #595757;
+    transition: all 0.3s ease-in; }
+  a .nav-link {
+    color: red; }
+  .navbar li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px; }
+  .dropdown-menu {
+    border-radius: 10px;
+    opacity: 0.7;
+    width: 20px;
+    margin-left: 140px; }
+  .dropdown:hover .dropdown-menu {
+    display: block; }
+  .dropdown-menu li {
+    text-align: center;
+    padding: 3px; }
+  .dropdown-menu li:hover {
+    background-color: #e6afe6;
+    border-radius: 20px;
+    transition: all 0.2s ease-in;
+    color: #595757; }
+  .dropdown-menu li:hover a {
+    color: black; }
+  .navbar-toggler {
+    margin-left: 160px; } }
+
+@media only screen and (min-width: 768px) {
+  .navbar {
+    font-family: 'Comfortaa', cursive;
+    z-index: 1000;
+    background-color: whitesmoke;
+    opacity: 0.9; }
+  .container-fluid {
+    width: auto; }
+  .navbar li {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold; }
+  .navbar li a {
+    color: red; }
+  .navbar li a:hover {
+    color: #595757;
+    transition: all 0.3s ease-in; }
+  a .nav-link {
+    color: red; }
+  .navbar li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px; }
+  .dropdown-menu {
+    border-radius: 10px;
+    opacity: 0.7;
+    width: 20px;
+    /* margin-left: 140px; */ }
+  .dropdown:hover .dropdown-menu {
+    display: block; }
+  .dropdown-menu li {
+    text-align: center;
+    padding: 3px; }
+  .dropdown-menu li:hover {
+    background-color: #e6afe6;
+    border-radius: 20px;
+    transition: all 0.2s ease-in;
+    color: #595757; }
+  .dropdown-menu li:hover a {
+    color: black; }
+  .navbar-toggler {
+    margin-left: 160px; } }
+
+@keyframes animate__bounceInLeft {}.hLeft {
+  height: 100%;
+  width: 25%;
+  background-image: url(../imagenes/logo.png);
+  background-repeat: no-repeat;
+  /* background-size:cover; */
+  background-position: left;
+  float: left;
+  animation: bounceInLeft;
+  animation-duration: 1s; }
+
+.header__logo {
+  animation: bounceInLeft;
+  animation-duration: 1s;
+  mix-blend-mode: multiply; }

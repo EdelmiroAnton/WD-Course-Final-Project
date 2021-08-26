@@ -1,0 +1,44 @@
+.indexCont{
+    background-color: rgb(255, 241, 224);
+    height: 100%;
+    margin-bottom: auto;
+}
+
+.introIndex{
+    text-align: center;
+    color:rgb(158, 20, 10);
+    font-family: 'Comic Neue', cursive;
+    padding: 50px;
+    font-size: 40px;
+}
+
+.frase{
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.parrafoIndex{
+    text-align: justify;
+    font-family: sans-serif;
+    line-height: 25px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.rounded-3{
+    margin-right: 10px;
+}
+
+.ultimasFotos{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.ultimasFotos img:hover{
+    transition: all 0.2s ease-in-out;
+    filter: opacity(0.8);
+}

@@ -1,0 +1,46 @@
+.footer{
+    margin: 200px -10px -10px -10px;
+    font-size: 15px;
+    background-color:rgb(209, 208, 206);
+    padding: 40px;
+    text-align: center;
+    margin-top:-5px; 
+}
+.footerTexto{
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    margin-top:15px;
+}
+$font-size: 10px;
+
+.footer__redes{
+    font-size: $font-size *4; 
+    display: flex;
+    justify-content:center;
+}
+
+.footer__redes--btnFace:hover{
+    color: blue;
+    transform: scale(1.5);
+    transition: all 0.1s ease-in-out;
+}
+.footer__redes--btnInsta:hover{
+    color:rgb(226, 43, 195);
+    transform: scale(1.5);
+    transition: all 0.1s ease-in-out;
+}
+.footer__redes--btnWsp:hover{
+    color: rgb(10, 202, 10);
+    transform: scale(1.5);
+    transition: all 0.1s ease-in-out;
+}
+
+.footer__redes--btnInsta{
+    margin-left:30px;
+}
+
+.footer__redes--btnWsp{
+    margin-left: 30px;
+}

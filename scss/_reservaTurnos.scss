@@ -1,0 +1,385 @@
+@media only screen and (min-width: 401px) and (max-width: 768px){
+    .main__fotos{
+        margin-left: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .main__fotos th{
+        padding: 20px;
+    }
+    
+    .main__fotos img{
+        border-radius: 5%;
+        border: black 1px solid;
+
+    }
+    .main__fotos--maternidad:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter:grayscale(1)
+    }
+    
+    .main__fotos--newBorn:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter:grayscale(1)
+    }
+    
+    .main__fotos--miniBaby:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter:grayscale(1);
+    }
+    
+    .main__fotos--unAño:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter:grayscale(1)
+    }
+    
+    .infantiles:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter:grayscale(1);
+    }
+
+    @each $foto in main__fotos--maternidad, main__fotos--newBorn, main__fotos--miniBaby, main__fotos--unAño, main__fotos--infantiles{
+        .#{$foto}{
+            height: 350px;
+            width: 350px;
+        }
+    }
+    // .main__fotos--maternidad{
+    //     height: 350px;
+    //     width: 350px;
+    // }
+    // .main__fotos--newBorn{
+    //     height: 350px;
+    //     width: 350px;
+    // }
+    // .main__fotos--miniBaby{
+    //     height: 350px;
+    //     width: 350px;
+    // }
+    // .main__fotos--unAño{
+    //     height: 350px;
+    //     width: 350px;
+    // }
+    // .main__fotos--infantiles{
+    //     height: 350px;
+    //     width: 350px;
+    // }
+
+    
+.form__comentario{
+    font-family: 'Comfortaa', cursive;
+    margin: 40px 0 20px 20px;
+    color: rgba(240, 77, 147, 0.796);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px grey;
+}
+.form__textArea{
+    margin: 0px 10px 10px 80px;
+}
+
+.form__boton{
+    margin: 5px 0 10px 170px;
+}
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .main__fotos{
+        margin-left: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .main__fotos th{
+        padding: 20px;
+    }
+    
+    .main__fotos img{
+        border-radius: 5%;
+        border: black 1px solid;
+    }
+
+    .main__fotos--maternidad:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter:grayscale(1)
+    }
+    
+    .main__fotos--newBorn:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter:grayscale(1)
+    }
+    
+    .main__fotos--miniBaby:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter:grayscale(1);
+    }
+    
+    .main__fotos--unAño:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter:grayscale(1)
+    }
+    
+    .main__fotos--infantiles:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter:grayscale(1);
+    }
+
+    @each $foto in main__fotos--maternidad, main__fotos--newBorn, main__fotos--miniBaby, main__fotos--unAño, main__fotos--infantiles{
+        .#{$foto}{
+            height: 350px;
+            width: 350px;
+        }
+    }
+    // .main__fotos--maternidad{
+    //     height: 350px;
+    //     width: 350px;
+    // }
+    // .main__fotos--newBorn{
+    //     height: 350px;
+    //     width: 350px;
+    // }
+    // .main__fotos--miniBaby{
+    //     height: 350px;
+    //     width: 350px;
+    // }
+    // .main__fotos--unAño{
+    //     height: 350px;
+    //     width: 350px;
+    // }
+    // .main__fotos--infantiles{
+    //     height: 350px;
+    //     width: 350px;
+    // }
+        
+    .form__comentario{
+    font-family: 'Comfortaa', cursive;
+    margin: 40px 0 20px 20px;
+    color: rgba(240, 77, 147, 0.796);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px grey;
+    }
+    .form__textArea{
+    margin: 0px 10px 10px 30%;
+    }
+    .form__boton{
+        margin: 5px 0 10px 350px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1219px){
+    .main__fotos{
+        margin-left: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .main__fotos th{
+        padding: 20px;
+    }
+    
+    .main__fotos img{
+        border-radius: 5%;
+        border: black 1px solid;
+    }
+    
+    
+    .main__fotos--maternidad:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter:grayscale(1)
+    }
+    
+    .main__fotos--newBorn:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter:grayscale(1)
+    }
+    
+    .main__fotos--miniBaby:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter:grayscale(1);
+    }
+    
+    .main__fotos--unAño:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter:grayscale(1)
+    }
+    
+    .main__fotos--infantiles:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter:grayscale(1);
+    }
+
+    @each $foto in main__fotos--maternidad , main__fotos--newBorn , main__fotos--miniBaby , main__fotos--unAño , main__fotos--infantiles{
+        .#{$foto}{
+            height: 350px;
+            width: 350px;
+        }
+    }
+    // .main__fotos--maternidad{
+    //     height: 350px;
+    //     width: 350px;
+    // }
+    // .main__fotos--newBorn{
+    //     height: 350px;
+    //     width: 350px;
+    // }
+    // .main__fotos--miniBaby{
+    //     height: 350px;
+    //     width: 350px;
+    // }
+    // .main__fotos--unAño{
+    //     height: 350px;
+    //     width: 350px;
+    // }
+    // .main__fotos--infantiles{
+    //     height: 350px;
+    //     width: 350px;
+    // }
+        
+    .form__comentario{
+    font-family: 'Comfortaa', cursive;
+    margin: 40px 0 20px 20px;
+    color: rgba(240, 77, 147, 0.796);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px grey;
+    }
+    .form__textArea{
+    margin: 0px 10px 10px 40%;
+    }
+    .form__boton{
+        margin: 5px 0 10px 500px;
+    }
+}
+
+.main--pregunta{
+    color: rgba(240, 77, 147, 0.796);
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 2px grey;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 1220px) and (max-width: 1440px){
+    .main__fotos{
+        margin-left: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .main__fotos th{
+        padding: 20px;
+    }
+    
+    .main__fotos img{
+        border-radius: 5%;
+        border: black 1px solid;
+    }
+    
+    .main__fotos--unAño{
+        margin-top: -150px;
+    }
+    
+    .main__fotos--infantiles{
+        margin-top: -150px;
+    }
+    
+    .main__fotos--newBorn{
+        margin-top: 180px;
+    }
+    
+    .main__fotos--maternidad:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter:grayscale(1)
+    }
+    
+    .main__fotos--newBorn:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter:grayscale(1)
+    }
+    
+    .main__fotos--miniBaby:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter:grayscale(1);
+    }
+    
+    .main__fotos--unAño:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter:grayscale(1)
+    }
+    
+    .main__fotos--infantiles:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter:grayscale(1);
+    }
+    .main__fotos--maternidad{
+        height: 350px;
+        width: 350px;
+    }
+    .main__fotos--newBorn{
+        height: 350px;
+        width: 350px;
+    }
+    .main__fotos--miniBaby{
+        height: 350px;
+        width: 350px;
+    }
+    .main__fotos--unAño{
+        height: 350px;
+        width: 350px;
+    }
+    .main__fotos--infantiles{
+        height: 350px;
+        width: 350px;
+    }
+
+ 
+    .form__comentario{
+    font-family: 'Comfortaa', cursive;
+    margin: 40px 0 20px 20px;
+    color: rgba(240, 77, 147, 0.796);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px grey;
+    }
+    .form__textArea{
+    margin: 0px 10px 10px 40%;
+    }
+    .form__boton{
+        margin: 5px 0 10px 630px;
+    }
+}
+
+.main--pregunta{
+    color: rgba(240, 77, 147, 0.796);
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 2px grey;
+}
+
