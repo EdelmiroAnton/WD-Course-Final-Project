@@ -356,36 +356,153 @@ header {
     grid-row-end: 5; } }
 
 @media only screen and (min-width: 401px) and (max-width: 768px) {
-  .main__fotos {
-    margin-left: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; }
-  .main__fotos th {
-    padding: 20px; }
-  .main__fotos img {
-    border-radius: 5%;
-    border: black 1px solid; }
-  .main__fotos--maternidad:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in;
-    filter: grayscale(1); }
-  .main__fotos--newBorn:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in;
-    filter: grayscale(1); }
-  .main__fotos--miniBaby:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in;
-    filter: grayscale(1); }
-  .main__fotos--unAño:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in;
-    filter: grayscale(1); }
-  .infantiles:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in;
-    filter: grayscale(1); }
+  .contenedorFotos {
+    width: 400px;
+    height: auto;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contendorMaternidad {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .main__fotos--maternidad {
+    height: 400px;
+    width: 400px; }
+  .contendorMaternidad .main__fotos--maternidad {
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 500ms ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contendorMaternidad:hover .main__fotos--maternidad {
+    transform: scale(0.8); }
+  .contendorMaternidad .texto--maternidad {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-left: 140px;
+    transform: translate(0px);
+    transition: all 500ms ease-in-out;
+    opacity: 0; }
+  .contendorMaternidad:hover .texto--maternidad {
+    transform: translate(0px, -20px);
+    opacity: 1; }
+  .contenedorNewBorn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .main__fotos--newBorn {
+    height: 400px;
+    width: 400px; }
+  .contenedorNewBorn .main__fotos--newBorn {
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 500ms ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contenedorNewBorn:hover .main__fotos--newBorn {
+    transform: scale(0.8); }
+  .contenedorNewBorn .texto--newBorn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-left: 120px;
+    transform: translate(0px);
+    transition: all 500ms ease-in-out;
+    opacity: 0; }
+  .contenedorNewBorn:hover .texto--newBorn {
+    transform: translate(0px, -20px);
+    opacity: 1; }
+  .contenedorMiniBaby {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .main__fotos--miniBaby {
+    height: 400px;
+    width: 400px; }
+  .contenedorMiniBaby .main__fotos--miniBaby {
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 500ms ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contenedorMiniBaby:hover .main__fotos--miniBaby {
+    transform: scale(0.8); }
+  .contenedorMiniBaby .texto--miniBaby {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-left: 145px;
+    transform: translate(0px);
+    transition: all 500ms ease-in-out;
+    opacity: 0; }
+  .contenedorMiniBaby:hover .texto--miniBaby {
+    transform: translate(0px, -20px);
+    opacity: 1; }
+  .contenedorUnAño {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .main__fotos--unAño {
+    height: 400px;
+    width: 400px; }
+  .contenedorUnAño .main__fotos--unAño {
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 500ms ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contenedorUnAño:hover .main__fotos--unAño {
+    transform: scale(0.8); }
+  .contenedorUnAño .texto--unAño {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-left: 145px;
+    transform: translate(0px);
+    transition: all 500ms ease-in-out;
+    opacity: 0; }
+  .contenedorUnAño:hover .texto--unAño {
+    transform: translate(0px, -20px);
+    opacity: 1; }
+  .contenedorInfantiles {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .main__fotos--infantiles {
+    height: 400px;
+    width: 400px; }
+  .contenedorInfantiles .main__fotos--infantiles {
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 500ms ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contenedorInfantiles:hover .main__fotos--infantiles {
+    transform: scale(0.8); }
+  .contenedorInfantiles .texto--Infantiles {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-left: 145px;
+    transform: translate(0px);
+    transition: all 500ms ease-in-out;
+    opacity: 0; }
+  .contenedorInfantiles:hover .texto--Infantiles {
+    transform: translate(0px, -20px);
+    opacity: 1; }
   .main__fotos--maternidad {
     height: 350px;
     width: 350px; }
@@ -415,36 +532,153 @@ header {
     margin: 5px 0 10px 170px; } }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .main__fotos {
-    margin-left: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; }
-  .main__fotos th {
-    padding: 20px; }
-  .main__fotos img {
-    border-radius: 5%;
-    border: black 1px solid; }
-  .main__fotos--maternidad:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in;
-    filter: grayscale(1); }
-  .main__fotos--newBorn:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in;
-    filter: grayscale(1); }
-  .main__fotos--miniBaby:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in;
-    filter: grayscale(1); }
-  .main__fotos--unAño:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in;
-    filter: grayscale(1); }
-  .main__fotos--infantiles:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in;
-    filter: grayscale(1); }
+  .contenedorFotos {
+    width: 400px;
+    height: auto;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contendorMaternidad {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .main__fotos--maternidad {
+    height: 400px;
+    width: 400px; }
+  .contendorMaternidad .main__fotos--maternidad {
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 500ms ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contendorMaternidad:hover .main__fotos--maternidad {
+    transform: scale(0.8); }
+  .contendorMaternidad .texto--maternidad {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-left: 140px;
+    transform: translate(0px);
+    transition: all 500ms ease-in-out;
+    opacity: 0; }
+  .contendorMaternidad:hover .texto--maternidad {
+    transform: translate(0px, -20px);
+    opacity: 1; }
+  .contenedorNewBorn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .main__fotos--newBorn {
+    height: 400px;
+    width: 400px; }
+  .contenedorNewBorn .main__fotos--newBorn {
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 500ms ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contenedorNewBorn:hover .main__fotos--newBorn {
+    transform: scale(0.8); }
+  .contenedorNewBorn .texto--newBorn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-left: 120px;
+    transform: translate(0px);
+    transition: all 500ms ease-in-out;
+    opacity: 0; }
+  .contenedorNewBorn:hover .texto--newBorn {
+    transform: translate(0px, -20px);
+    opacity: 1; }
+  .contenedorMiniBaby {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .main__fotos--miniBaby {
+    height: 400px;
+    width: 400px; }
+  .contenedorMiniBaby .main__fotos--miniBaby {
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 500ms ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contenedorMiniBaby:hover .main__fotos--miniBaby {
+    transform: scale(0.8); }
+  .contenedorMiniBaby .texto--miniBaby {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-left: 145px;
+    transform: translate(0px);
+    transition: all 500ms ease-in-out;
+    opacity: 0; }
+  .contenedorMiniBaby:hover .texto--miniBaby {
+    transform: translate(0px, -20px);
+    opacity: 1; }
+  .contenedorUnAño {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .main__fotos--unAño {
+    height: 400px;
+    width: 400px; }
+  .contenedorUnAño .main__fotos--unAño {
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 500ms ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contenedorUnAño:hover .main__fotos--unAño {
+    transform: scale(0.8); }
+  .contenedorUnAño .texto--unAño {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-left: 145px;
+    transform: translate(0px);
+    transition: all 500ms ease-in-out;
+    opacity: 0; }
+  .contenedorUnAño:hover .texto--unAño {
+    transform: translate(0px, -20px);
+    opacity: 1; }
+  .contenedorInfantiles {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .main__fotos--infantiles {
+    height: 400px;
+    width: 400px; }
+  .contenedorInfantiles .main__fotos--infantiles {
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 500ms ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contenedorInfantiles:hover .main__fotos--infantiles {
+    transform: scale(0.8); }
+  .contenedorInfantiles .texto--Infantiles {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-left: 145px;
+    transform: translate(0px);
+    transition: all 500ms ease-in-out;
+    opacity: 0; }
+  .contenedorInfantiles:hover .texto--Infantiles {
+    transform: translate(0px, -20px);
+    opacity: 1; }
   .main__fotos--maternidad {
     height: 350px;
     width: 350px; }
@@ -474,36 +708,153 @@ header {
     margin: 5px 0 10px 350px; } }
 
 @media only screen and (min-width: 1025px) and (max-width: 1219px) {
-  .main__fotos {
-    margin-left: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; }
-  .main__fotos th {
-    padding: 20px; }
-  .main__fotos img {
-    border-radius: 5%;
-    border: black 1px solid; }
-  .main__fotos--maternidad:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in;
-    filter: grayscale(1); }
-  .main__fotos--newBorn:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in;
-    filter: grayscale(1); }
-  .main__fotos--miniBaby:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in;
-    filter: grayscale(1); }
-  .main__fotos--unAño:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in;
-    filter: grayscale(1); }
-  .main__fotos--infantiles:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in;
-    filter: grayscale(1); }
+  .contenedorFotos {
+    width: 400px;
+    height: auto;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contendorMaternidad {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .main__fotos--maternidad {
+    height: 400px;
+    width: 400px; }
+  .contendorMaternidad .main__fotos--maternidad {
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 500ms ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contendorMaternidad:hover .main__fotos--maternidad {
+    transform: scale(0.8); }
+  .contendorMaternidad .texto--maternidad {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-left: 140px;
+    transform: translate(0px);
+    transition: all 500ms ease-in-out;
+    opacity: 0; }
+  .contendorMaternidad:hover .texto--maternidad {
+    transform: translate(0px, -20px);
+    opacity: 1; }
+  .contenedorNewBorn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .main__fotos--newBorn {
+    height: 400px;
+    width: 400px; }
+  .contenedorNewBorn .main__fotos--newBorn {
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 500ms ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contenedorNewBorn:hover .main__fotos--newBorn {
+    transform: scale(0.8); }
+  .contenedorNewBorn .texto--newBorn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-left: 120px;
+    transform: translate(0px);
+    transition: all 500ms ease-in-out;
+    opacity: 0; }
+  .contenedorNewBorn:hover .texto--newBorn {
+    transform: translate(0px, -20px);
+    opacity: 1; }
+  .contenedorMiniBaby {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .main__fotos--miniBaby {
+    height: 400px;
+    width: 400px; }
+  .contenedorMiniBaby .main__fotos--miniBaby {
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 500ms ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contenedorMiniBaby:hover .main__fotos--miniBaby {
+    transform: scale(0.8); }
+  .contenedorMiniBaby .texto--miniBaby {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-left: 145px;
+    transform: translate(0px);
+    transition: all 500ms ease-in-out;
+    opacity: 0; }
+  .contenedorMiniBaby:hover .texto--miniBaby {
+    transform: translate(0px, -20px);
+    opacity: 1; }
+  .contenedorUnAño {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .main__fotos--unAño {
+    height: 400px;
+    width: 400px; }
+  .contenedorUnAño .main__fotos--unAño {
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 500ms ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contenedorUnAño:hover .main__fotos--unAño {
+    transform: scale(0.8); }
+  .contenedorUnAño .texto--unAño {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-left: 145px;
+    transform: translate(0px);
+    transition: all 500ms ease-in-out;
+    opacity: 0; }
+  .contenedorUnAño:hover .texto--unAño {
+    transform: translate(0px, -20px);
+    opacity: 1; }
+  .contenedorInfantiles {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .main__fotos--infantiles {
+    height: 400px;
+    width: 400px; }
+  .contenedorInfantiles .main__fotos--infantiles {
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 500ms ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contenedorInfantiles:hover .main__fotos--infantiles {
+    transform: scale(0.8); }
+  .contenedorInfantiles .texto--Infantiles {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-left: 145px;
+    transform: translate(0px);
+    transition: all 500ms ease-in-out;
+    opacity: 0; }
+  .contenedorInfantiles:hover .texto--Infantiles {
+    transform: translate(0px, -20px);
+    opacity: 1; }
   .main__fotos--maternidad {
     height: 350px;
     width: 350px; }
@@ -540,58 +891,154 @@ header {
   text-shadow: 2px 2px 2px grey;
   margin-top: 20px; }
 
-@media only screen and (min-width: 1220px) and (max-width: 1440px) {
-  .main__fotos {
-    margin-left: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; }
-  .main__fotos th {
-    padding: 20px; }
-  .main__fotos img {
-    border-radius: 5%;
-    border: black 1px solid; }
-  .main__fotos--unAño {
-    margin-top: -150px; }
-  .main__fotos--infantiles {
-    margin-top: -150px; }
-  .main__fotos--newBorn {
-    margin-top: 180px; }
-  .main__fotos--maternidad:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in;
-    filter: grayscale(1); }
-  .main__fotos--newBorn:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in;
-    filter: grayscale(1); }
-  .main__fotos--miniBaby:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in;
-    filter: grayscale(1); }
-  .main__fotos--unAño:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in;
-    filter: grayscale(1); }
-  .main__fotos--infantiles:hover {
-    transform: scale(1.1);
-    transition: all 0.5s ease-in;
-    filter: grayscale(1); }
+@media only screen and (min-width: 1220px) and (max-width: 2880px) {
+  .contenedorFotos {
+    width: 400px;
+    height: auto;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contendorMaternidad {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
   .main__fotos--maternidad {
-    height: 350px;
-    width: 350px; }
+    height: 400px;
+    width: 400px; }
+  .contendorMaternidad .main__fotos--maternidad {
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 500ms ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contendorMaternidad:hover .main__fotos--maternidad {
+    transform: scale(0.8); }
+  .contendorMaternidad .texto--maternidad {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-left: 140px;
+    transform: translate(0px);
+    transition: all 500ms ease-in-out;
+    opacity: 0; }
+  .contendorMaternidad:hover .texto--maternidad {
+    transform: translate(0px, -20px);
+    opacity: 1; }
+  .contenedorNewBorn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
   .main__fotos--newBorn {
-    height: 350px;
-    width: 350px; }
+    height: 400px;
+    width: 400px; }
+  .contenedorNewBorn .main__fotos--newBorn {
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 500ms ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contenedorNewBorn:hover .main__fotos--newBorn {
+    transform: scale(0.8); }
+  .contenedorNewBorn .texto--newBorn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-left: 120px;
+    transform: translate(0px);
+    transition: all 500ms ease-in-out;
+    opacity: 0; }
+  .contenedorNewBorn:hover .texto--newBorn {
+    transform: translate(0px, -20px);
+    opacity: 1; }
+  .contenedorMiniBaby {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
   .main__fotos--miniBaby {
-    height: 350px;
-    width: 350px; }
+    height: 400px;
+    width: 400px; }
+  .contenedorMiniBaby .main__fotos--miniBaby {
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 500ms ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contenedorMiniBaby:hover .main__fotos--miniBaby {
+    transform: scale(0.8); }
+  .contenedorMiniBaby .texto--miniBaby {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-left: 145px;
+    transform: translate(0px);
+    transition: all 500ms ease-in-out;
+    opacity: 0; }
+  .contenedorMiniBaby:hover .texto--miniBaby {
+    transform: translate(0px, -20px);
+    opacity: 1; }
+  .contenedorUnAño {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
   .main__fotos--unAño {
-    height: 350px;
-    width: 350px; }
+    height: 400px;
+    width: 400px; }
+  .contenedorUnAño .main__fotos--unAño {
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 500ms ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contenedorUnAño:hover .main__fotos--unAño {
+    transform: scale(0.8); }
+  .contenedorUnAño .texto--unAño {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-left: 145px;
+    transform: translate(0px);
+    transition: all 500ms ease-in-out;
+    opacity: 0; }
+  .contenedorUnAño:hover .texto--unAño {
+    transform: translate(0px, -20px);
+    opacity: 1; }
+  .contenedorInfantiles {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
   .main__fotos--infantiles {
-    height: 350px;
-    width: 350px; }
+    height: 400px;
+    width: 400px; }
+  .contenedorInfantiles .main__fotos--infantiles {
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 500ms ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contenedorInfantiles:hover .main__fotos--infantiles {
+    transform: scale(0.8); }
+  .contenedorInfantiles .texto--Infantiles {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-left: 145px;
+    transform: translate(0px);
+    transition: all 500ms ease-in-out;
+    opacity: 0; }
+  .contenedorInfantiles:hover .texto--Infantiles {
+    transform: translate(0px, -20px);
+    opacity: 1; }
   .form__comentario {
     font-family: 'Comfortaa', cursive;
     margin: 40px 0 20px 20px;
@@ -603,14 +1050,13 @@ header {
   .form__textArea {
     margin: 0px 10px 10px 40%; }
   .form__boton {
-    margin: 5px 0 10px 630px; } }
-
-.main--pregunta {
-  color: rgba(240, 77, 147, 0.796);
-  text-align: center;
-  font-family: 'Comfortaa', cursive;
-  margin-bottom: 40px;
-  text-shadow: 2px 2px 2px grey; }
+    margin: 5px 0 10px 630px; }
+  .main--pregunta {
+    color: rgba(240, 77, 147, 0.796);
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 2px grey; } }
 
 @media only screen and (min-width: 401px) and (max-width: 769px) {
   .form {
