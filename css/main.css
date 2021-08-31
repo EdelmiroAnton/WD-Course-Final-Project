@@ -517,19 +517,7 @@ header {
     width: 350px; }
   .main__fotos--infantiles {
     height: 350px;
-    width: 350px; }
-  .form__comentario {
-    font-family: 'Comfortaa', cursive;
-    margin: 40px 0 20px 20px;
-    color: rgba(240, 77, 147, 0.796);
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-    text-shadow: 1px 1px 1px grey; }
-  .form__textArea {
-    margin: 0px 10px 10px 80px; }
-  .form__boton {
-    margin: 5px 0 10px 170px; } }
+    width: 350px; } }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .contenedorFotos {
@@ -693,19 +681,7 @@ header {
     width: 350px; }
   .main__fotos--infantiles {
     height: 350px;
-    width: 350px; }
-  .form__comentario {
-    font-family: 'Comfortaa', cursive;
-    margin: 40px 0 20px 20px;
-    color: rgba(240, 77, 147, 0.796);
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-    text-shadow: 1px 1px 1px grey; }
-  .form__textArea {
-    margin: 0px 10px 10px 30%; }
-  .form__boton {
-    margin: 5px 0 10px 350px; } }
+    width: 350px; } }
 
 @media only screen and (min-width: 1025px) and (max-width: 1219px) {
   .contenedorFotos {
@@ -869,19 +845,7 @@ header {
     width: 350px; }
   .main__fotos--infantiles {
     height: 350px;
-    width: 350px; }
-  .form__comentario {
-    font-family: 'Comfortaa', cursive;
-    margin: 40px 0 20px 20px;
-    color: rgba(240, 77, 147, 0.796);
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-    text-shadow: 1px 1px 1px grey; }
-  .form__textArea {
-    margin: 0px 10px 10px 40%; }
-  .form__boton {
-    margin: 5px 0 10px 500px; } }
+    width: 350px; } }
 
 .main--pregunta {
   color: rgba(240, 77, 147, 0.796);
@@ -1039,18 +1003,6 @@ header {
   .contenedorInfantiles:hover .texto--Infantiles {
     transform: translate(0px, -20px);
     opacity: 1; }
-  .form__comentario {
-    font-family: 'Comfortaa', cursive;
-    margin: 40px 0 20px 20px;
-    color: rgba(240, 77, 147, 0.796);
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-    text-shadow: 1px 1px 1px grey; }
-  .form__textArea {
-    margin: 0px 10px 10px 40%; }
-  .form__boton {
-    margin: 5px 0 10px 630px; }
   .main--pregunta {
     color: rgba(240, 77, 147, 0.796);
     text-align: center;
