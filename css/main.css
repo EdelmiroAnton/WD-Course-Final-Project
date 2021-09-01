@@ -363,6 +363,11 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto; }
+  .contenedorFotos .txt {
+    font-family: 'Miriam Libre', sans-serif;
+    color: grey; }
+  .contenedorFotos img {
+    object-fit: cover; }
   .contendorMaternidad {
     display: block;
     margin-left: auto;
@@ -380,7 +385,6 @@ header {
   .contendorMaternidad:hover .main__fotos--maternidad {
     transform: scale(0.8); }
   .contendorMaternidad .texto--maternidad {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
     display: block;
@@ -408,7 +412,6 @@ header {
   .contenedorNewBorn:hover .main__fotos--newBorn {
     transform: scale(0.8); }
   .contenedorNewBorn .texto--newBorn {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
     display: block;
@@ -436,7 +439,6 @@ header {
   .contenedorMiniBaby:hover .main__fotos--miniBaby {
     transform: scale(0.8); }
   .contenedorMiniBaby .texto--miniBaby {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
     display: block;
@@ -464,7 +466,6 @@ header {
   .contenedorUnAño:hover .main__fotos--unAño {
     transform: scale(0.8); }
   .contenedorUnAño .texto--unAño {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
     display: block;
@@ -492,7 +493,6 @@ header {
   .contenedorInfantiles:hover .main__fotos--infantiles {
     transform: scale(0.8); }
   .contenedorInfantiles .texto--Infantiles {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
     display: block;
@@ -527,6 +527,11 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto; }
+  .contenedorFotos .txt {
+    font-family: 'Miriam Libre', sans-serif;
+    color: grey; }
+  .contenedorFotos img {
+    object-fit: cover; }
   .contendorMaternidad {
     display: block;
     margin-left: auto;
@@ -544,7 +549,6 @@ header {
   .contendorMaternidad:hover .main__fotos--maternidad {
     transform: scale(0.8); }
   .contendorMaternidad .texto--maternidad {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
     display: block;
@@ -572,7 +576,6 @@ header {
   .contenedorNewBorn:hover .main__fotos--newBorn {
     transform: scale(0.8); }
   .contenedorNewBorn .texto--newBorn {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
     display: block;
@@ -600,7 +603,6 @@ header {
   .contenedorMiniBaby:hover .main__fotos--miniBaby {
     transform: scale(0.8); }
   .contenedorMiniBaby .texto--miniBaby {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
     display: block;
@@ -628,7 +630,6 @@ header {
   .contenedorUnAño:hover .main__fotos--unAño {
     transform: scale(0.8); }
   .contenedorUnAño .texto--unAño {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
     display: block;
@@ -656,7 +657,6 @@ header {
   .contenedorInfantiles:hover .main__fotos--infantiles {
     transform: scale(0.8); }
   .contenedorInfantiles .texto--Infantiles {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
     display: block;
@@ -691,10 +691,15 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto; }
+  .contenedorFotos .txt {
+    font-family: 'Miriam Libre', sans-serif;
+    color: grey; }
   .contendorMaternidad {
     display: block;
     margin-left: auto;
     margin-right: auto; }
+  .contenedorFotos img {
+    object-fit: cover; }
   .main__fotos--maternidad {
     height: 400px;
     width: 400px; }
@@ -708,7 +713,6 @@ header {
   .contendorMaternidad:hover .main__fotos--maternidad {
     transform: scale(0.8); }
   .contendorMaternidad .texto--maternidad {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
     display: block;
@@ -736,7 +740,6 @@ header {
   .contenedorNewBorn:hover .main__fotos--newBorn {
     transform: scale(0.8); }
   .contenedorNewBorn .texto--newBorn {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
     display: block;
@@ -764,7 +767,6 @@ header {
   .contenedorMiniBaby:hover .main__fotos--miniBaby {
     transform: scale(0.8); }
   .contenedorMiniBaby .texto--miniBaby {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
     display: block;
@@ -792,7 +794,6 @@ header {
   .contenedorUnAño:hover .main__fotos--unAño {
     transform: scale(0.8); }
   .contenedorUnAño .texto--unAño {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
     display: block;
@@ -820,7 +821,6 @@ header {
   .contenedorInfantiles:hover .main__fotos--infantiles {
     transform: scale(0.8); }
   .contenedorInfantiles .texto--Infantiles {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
     display: block;
@@ -863,6 +863,11 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto; }
+  .contenedorFotos .txt {
+    font-family: 'Miriam Libre', sans-serif;
+    color: grey; }
+  .contenedorFotos img {
+    object-fit: cover; }
   .contendorMaternidad {
     display: block;
     margin-left: auto;
@@ -880,7 +885,6 @@ header {
   .contendorMaternidad:hover .main__fotos--maternidad {
     transform: scale(0.8); }
   .contendorMaternidad .texto--maternidad {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
     display: block;
@@ -908,7 +912,6 @@ header {
   .contenedorNewBorn:hover .main__fotos--newBorn {
     transform: scale(0.8); }
   .contenedorNewBorn .texto--newBorn {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
     display: block;
@@ -936,7 +939,6 @@ header {
   .contenedorMiniBaby:hover .main__fotos--miniBaby {
     transform: scale(0.8); }
   .contenedorMiniBaby .texto--miniBaby {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
     display: block;
@@ -964,7 +966,6 @@ header {
   .contenedorUnAño:hover .main__fotos--unAño {
     transform: scale(0.8); }
   .contenedorUnAño .texto--unAño {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
     display: block;
@@ -978,7 +979,9 @@ header {
   .contenedorInfantiles {
     display: block;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    width: 100%;
+    height: auto; }
   .main__fotos--infantiles {
     height: 400px;
     width: 400px; }
@@ -992,7 +995,6 @@ header {
   .contenedorInfantiles:hover .main__fotos--infantiles {
     transform: scale(0.8); }
   .contenedorInfantiles .texto--Infantiles {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
     display: block;

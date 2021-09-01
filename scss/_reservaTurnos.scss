@@ -8,6 +8,14 @@
         margin-right: auto;
     }
     
+    .contenedorFotos .txt{
+        font-family: 'Miriam Libre', sans-serif;
+        color: grey;
+    }
+
+    .contenedorFotos img{
+        object-fit: cover;
+    }
     // MATERNIDAD //
     
     .contendorMaternidad{
@@ -35,7 +43,6 @@
         }
     
         .contendorMaternidad .texto--maternidad{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-weight: bold;
             font-size: 20px;
             display: block;
@@ -77,7 +84,6 @@
         }
     
         .contenedorNewBorn .texto--newBorn{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-weight: bold;
             font-size: 20px;
             display: block;
@@ -120,7 +126,6 @@
         }
     
         .contenedorMiniBaby .texto--miniBaby{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-weight: bold;
             font-size: 20px;
             display: block;
@@ -162,7 +167,6 @@
     }
     
     .contenedorUnAño .texto--unAño{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bold;
         font-size: 20px;
         display: block;
@@ -204,7 +208,6 @@
         }
         
         .contenedorInfantiles .texto--Infantiles{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-weight: bold;
             font-size: 20px;
             display: block;
@@ -238,6 +241,14 @@
         margin-right: auto;
     }
     
+    .contenedorFotos .txt{
+        font-family: 'Miriam Libre', sans-serif;
+        color: grey;
+    }
+
+    .contenedorFotos img{
+        object-fit: cover;
+    }
     // MATERNIDAD //
     
     .contendorMaternidad{
@@ -265,7 +276,6 @@
         }
     
         .contendorMaternidad .texto--maternidad{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-weight: bold;
             font-size: 20px;
             display: block;
@@ -307,7 +317,6 @@
         }
     
         .contenedorNewBorn .texto--newBorn{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-weight: bold;
             font-size: 20px;
             display: block;
@@ -350,7 +359,6 @@
         }
     
         .contenedorMiniBaby .texto--miniBaby{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-weight: bold;
             font-size: 20px;
             display: block;
@@ -392,7 +400,6 @@
     }
     
     .contenedorUnAño .texto--unAño{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bold;
         font-size: 20px;
         display: block;
@@ -434,7 +441,6 @@
         }
         
         .contenedorInfantiles .texto--Infantiles{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-weight: bold;
             font-size: 20px;
             display: block;
@@ -468,6 +474,10 @@
         margin-right: auto;
     }
     
+    .contenedorFotos .txt{
+        font-family: 'Miriam Libre', sans-serif;
+        color: grey;
+    }
     // MATERNIDAD //
     
     .contendorMaternidad{
@@ -476,6 +486,10 @@
         margin-right: auto;
     }
     
+    .contenedorFotos img{
+        object-fit: cover;
+    }
+
         .main__fotos--maternidad{
             height: 400px;
             width: 400px;
@@ -495,7 +509,6 @@
         }
     
         .contendorMaternidad .texto--maternidad{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-weight: bold;
             font-size: 20px;
             display: block;
@@ -537,7 +550,6 @@
         }
     
         .contenedorNewBorn .texto--newBorn{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-weight: bold;
             font-size: 20px;
             display: block;
@@ -580,7 +592,6 @@
         }
     
         .contenedorMiniBaby .texto--miniBaby{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-weight: bold;
             font-size: 20px;
             display: block;
@@ -622,7 +633,6 @@
     }
     
     .contenedorUnAño .texto--unAño{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bold;
         font-size: 20px;
         display: block;
@@ -664,7 +674,6 @@
         }
         
         .contenedorInfantiles .texto--Infantiles{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-weight: bold;
             font-size: 20px;
             display: block;
@@ -708,6 +717,14 @@
     margin-right: auto;
 }
 
+.contenedorFotos .txt{
+    font-family: 'Miriam Libre', sans-serif;
+    color: grey;
+}
+.contenedorFotos img{
+    object-fit: cover;
+}
+
 // MATERNIDAD //
 
 .contendorMaternidad{
@@ -735,7 +752,6 @@
     }
 
     .contendorMaternidad .texto--maternidad{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bold;
         font-size: 20px;
         display: block;
@@ -777,7 +793,6 @@
     }
 
     .contenedorNewBorn .texto--newBorn{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bold;
         font-size: 20px;
         display: block;
@@ -792,7 +807,6 @@
         opacity: 1;
         }
         
-
         // MINI BABY //
 
     .contenedorMiniBaby{
@@ -820,7 +834,6 @@
     }
 
     .contenedorMiniBaby .texto--miniBaby{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bold;
         font-size: 20px;
         display: block;
@@ -862,7 +875,6 @@
 }
 
 .contenedorUnAño .texto--unAño{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
     display: block;
@@ -883,8 +895,11 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
+        width: 100%;
+        height: auto;
         }
     
+
     .main__fotos--infantiles{
         height: 400px;
         width: 400px;
@@ -904,7 +919,6 @@
     }
     
     .contenedorInfantiles .texto--Infantiles{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bold;
         font-size: 20px;
         display: block;
