@@ -1,7 +1,8 @@
 $color: rgba(240, 77, 147, 0.796);
-@media only screen and (max-width: 767px){
+@media only screen and (min-width: 420px) and (max-width: 768px){
 $text-align: center;
 $margin-left: 100px;
+
 
 .sesionesTitulo{
     color: $color;
@@ -12,51 +13,6 @@ $margin-left: 100px;
     text-shadow: 1px 1px 1px grey; 
     margin-left: $margin-left - 50px; 
 }
-.videos{
-    display: flex;
-    flex-wrap: wrap;    
-}
-
-.video1 h2{
-    color: rgb(130, 125, 131);
-    font-family: 'Comfortaa', cursive;
-    text-align: $text-align; 
-    margin-left: $margin-left - 50px;
-}
-.iframe1{
-    padding: 5px;
-    margin-left: $margin-left - 150px;
-    width: 400px;
-    height: 300px;
-}
-.video2 h2{
-    color: rgb(130, 125, 131);
-    font-family: 'Comfortaa', cursive;
-    text-align: $text-align;
-    margin-left: $margin-left - 50px;
-}
-.iframe2{
-    padding: 5px;
-    margin-left: $margin-left - 150px;
-    width: 400px;
-    height: 300px;
-}
-
-.video3{
-    margin-left: 5px;
-}
-.video3 h2{
-    color: rgb(130, 125, 131);
-    font-family: 'Comfortaa', cursive;
-    text-align: $text-align;
-    margin-left: $margin-left - 50px;  
-}
-.iframe3{
-    padding: 5px;
-    margin-left: $margin-left - 150px;
-    width: 400px;
-    height: 300px;
-}
 
 .galeria{
     color: $color;
@@ -66,73 +22,123 @@ $margin-left: 100px;
     font-weight: bold;
     text-shadow: 2px 2px 2px  grey;
 }
+.main .item{
+    margin-left: auto;
+    margin-right: auto;
+}
 
-.contenedor{
-    height: fit-content;
-    width: fit-content;
-    display: grid;
-    grid-template-columns: repeat(3, 200px);
-    grid-template-rows: repeat(4, 200px);
-    margin-bottom: 150px;
-    margin-right: 5px;
-    grid-column-gap: 2%;
-    grid-row-gap: 4%;
+.contenedor .item{
+margin-top: 50px;
 }
 
 .item{
-    border:2px solid grey; ;
-    height: auto;
-    width: auto;
-    border-radius: 20px;
+    // border:2px solid grey; ;
+    height: 300px;
+    width: 300px;
+    // border-radius: 20px;
+    transition: opacity 0.7s ease-in-out;
 }
 
+.item img{
+    padding: 50px;
+}
+
+.item:hover{
+    opacity: 0.7;
+}
+
+//***FOTOS MATERNIDAD***//
 .caja1{
-    background-image: url(../imagenes/maternity1.jpg);
+    background-image: url(../imagenes/galeria/maternidad/maternity1.jpg);
     background-size: cover;
+    padding: 50px;
 }
 
 .caja2{
-    background-image: url(../imagenes/maternity2.jpg);
+    background-image: url(../imagenes/galeria/maternidad/maternity2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .caja3{
-    background-image: url(../imagenes/maternity3.jpg);
+    background-image: url(../imagenes/galeria/maternidad/maternity3.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .caja4{
-    background-image: url(../imagenes/new_born1.jpg);
+    background-image: url(../imagenes/galeria/maternidad/maternity4.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .caja5{
-    background-image: url(../imagenes/new_born2.jpg);
+    background-image: url(../imagenes/galeria/maternidad/SCF_1961.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .caja6{
-    background-image: url(../imagenes/new_born3.jpg);
+    background-image: url(../imagenes/galeria/maternidad/SCF_1979.jpg);
     background-size:cover;
     background-position:center;
 }
 
 .caja7{
-    background-image: url(../imagenes/primer_añito2.jpg);
+    background-image: url(../imagenes/galeria/maternidad/SCF_1982.jpg);
     background-size:cover;
     background-position:center;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 5;
-}
 }
 
-@media only screen and (max-width: 1302px){
+.caja8{
+    background-image: url(../imagenes/galeria/maternidad/SCF_4638.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.caja9{
+    background-image: url(../imagenes/galeria/maternidad/SCF_5021.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.caja10{
+    background-image: url(../imagenes/galeria/maternidad/SCF_5139.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.caja11{
+    background-image: url(../imagenes/galeria/maternidad/SCF_5154.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.caja12{
+    background-image: url(../imagenes/galeria/maternidad/SCF_6409.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.caja13{
+    background-image: url(../imagenes/galeria/maternidad/SCF_6431.jpg);
+    background-size:cover;
+    background-position:center;
+
+}
+
+.caja14{
+    background-image: url(../imagenes/galeria/maternidad/SCF_6861.jpg);
+    background-size:cover;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin-bottom: -280px;
+}
+
+//***FIN FOTOS MATERNIDAD***//
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
     .sesionesTitulo{
         color: $color;
         text-align: center;
@@ -144,46 +150,6 @@ $margin-left: 100px;
     }
     
     
-    .videos{
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: 14%;
-        
-    }
-    
-
-    .video1 h2{
-        color: rgb(130, 125, 131);
-        font-family: 'Comfortaa', cursive;
-        text-align: center;    
-    }
-    .iframe1{
-        padding: 25px;
-        width: 560px;
-        height: 315px;
-    }
-    .video2 h2{
-        color: rgb(130, 125, 131);
-        font-family: 'Comfortaa', cursive;
-        text-align: center;
-    }
-    .iframe2{
-        padding: 25px;
-        width: 560px;
-        height: 315px;
-    }
-    
-    .video3 h2{
-        color: rgb(130, 125, 131);
-        font-family: 'Comfortaa', cursive;
-        text-align: center;
-    }
-    .iframe3{
-        padding: 25px;
-        width: 560px;
-        height: 315px;
-    }
-    
     .galeria{
         color: $color;
         text-align: center;
@@ -192,71 +158,124 @@ $margin-left: 100px;
         font-weight: bold;
         text-shadow: 2px 2px 2px  grey;
     }
+              
     
     .contenedor{
         display: grid;
-        grid-template-columns: repeat(3, 200px);
-        grid-template-rows: repeat(4, 200px);
+        grid-template-columns: repeat(3, 250px);
+        grid-template-rows: repeat(5, 250px);
         justify-content: center;
         margin-bottom: 150px;
         grid-column-gap: 2%;
         grid-row-gap: 4%;
+        height: 100%;
     }
+   
+.item{
+    // border:2px solid grey; ;
+    height: auto;
+    width: auto;
+    // border-radius: 20px;
+    transition: opacity 0.7s ease-in-out;
+}
     
-    .item{
-        border:2px solid grey; ;
-        height: auto;
-        width: auto;
-        border-radius: 20px;
+    .item:hover{
+        opacity: 0.7;
     }
-    
+
+    //***FOTOS MATERNIDAD***//
     .caja1{
-        background-image: url(../imagenes/maternity1.jpg);
+        background-image: url(../imagenes/galeria/maternidad/maternity1.jpg);
         background-size: cover;
     }
     
     .caja2{
-        background-image: url(../imagenes/maternity2.jpg);
+        background-image: url(../imagenes/galeria/maternidad/maternity2.jpg);
         background-size: cover;
         background-position: center;
     }
     
     .caja3{
-        background-image: url(../imagenes/maternity3.jpg);
+        background-image: url(../imagenes/galeria/maternidad/maternity3.jpg);
         background-size: cover;
         background-position: center;
     }
     
     .caja4{
-        background-image: url(../imagenes/new_born1.jpg);
+        background-image: url(../imagenes/galeria/maternidad/maternity4.jpg);
         background-size: cover;
         background-position: center;
     }
     
     .caja5{
-        background-image: url(../imagenes/new_born2.jpg);
+        background-image: url(../imagenes/galeria/maternidad/SCF_1961.jpg);
         background-size: cover;
         background-position: center;
     }
     
     .caja6{
-        background-image: url(../imagenes/new_born3.jpg);
+        background-image: url(../imagenes/galeria/maternidad/SCF_1979.jpg);
         background-size:cover;
         background-position:center;
     }
     
     .caja7{
-        background-image: url(../imagenes/primer_añito2.jpg);
+        background-image: url(../imagenes/galeria/maternidad/SCF_1982.jpg);
         background-size:cover;
         background-position:center;
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 3;
-        grid-row-end: 5;
     }
+
+    .caja8{
+        background-image: url(../imagenes/galeria/maternidad/SCF_4638.jpg);
+        background-size:cover;
+        background-position:center;
+    }
+
+    .caja9{
+        background-image: url(../imagenes/galeria/maternidad/SCF_5021.jpg);
+        background-size:cover;
+        background-position:center;
+    }
+
+    .caja10{
+        background-image: url(../imagenes/galeria/maternidad/SCF_5139.jpg);
+        background-size:cover;
+        background-position:center;
+    }
+
+    .caja11{
+        background-image: url(../imagenes/galeria/maternidad/SCF_5154.jpg);
+        background-size:cover;
+        background-position:center;
+    }
+
+    .caja12{
+        background-image: url(../imagenes/galeria/maternidad/SCF_6409.jpg);
+        background-size:cover;
+        background-position:center;
+    }
+
+    .caja13{
+        background-image: url(../imagenes/galeria/maternidad/SCF_6431.jpg);
+        background-size:cover;
+        background-position:center;
+        margin-bottom: -100px;
+    }
+
+    .caja14{
+        background-image: url(../imagenes/galeria/maternidad/SCF_6861.jpg);
+        background-size:cover;
+        background-position:center;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        margin-bottom: -100px;
+    }
+
+    //***FIN FOTOS MATERNIDAD***//
     }
     
-    @media only screen and (min-width: 1303px){
+    
+    @media only screen and (min-width: 1025px) and (max-width: 1200px){
         .sesionesTitulo{
             color: $color;
             text-align: center;
@@ -267,49 +286,7 @@ $margin-left: 100px;
             /* text-shadow: 2px 2px 2px  grey; */
         }
         
-        
-        .videos{
-            display: flex;
-            flex-wrap: wrap;
-            margin-left: 14%;
-        }
-        
     
-        .video1 h2{
-            color: rgb(130, 125, 131);
-            font-family: 'Comfortaa', cursive;
-            text-align: center;    
-        }
-        .iframe1{
-            padding: 25px;
-            width: 560px;
-            height: 315px;
-        }
-        .video2 h2{
-            color: rgb(130, 125, 131);
-            font-family: 'Comfortaa', cursive;
-            text-align: center;
-        }
-        .iframe2{
-            padding: 25px;
-            width: 560px;
-            height: 315px;
-        }
-        
-        .video3{
-            margin-left: 20%;
-        }
-        .video3 h2{
-            color: rgb(130, 125, 131);
-            font-family: 'Comfortaa', cursive;
-            text-align: center;
-        }
-        .iframe3{
-            padding: 25px;
-            width: 560px;
-            height: 315px;
-        }
-        
         .galeria{
             color: $color;
             text-align: center;
@@ -319,68 +296,252 @@ $margin-left: 100px;
             text-shadow: 2px 2px 2px  grey;
         }
         
+      
         .contenedor{
-        
             display: grid;
-            grid-template-columns: repeat(3, 200px);
-            grid-template-rows: repeat(4, 200px);
+            grid-template-columns: repeat(3, 300px);
+            grid-template-rows: repeat(5, 300px);
             justify-content: center;
             margin-bottom: 150px;
             grid-column-gap: 2%;
             grid-row-gap: 4%;
+            height: 100%;
         }
+       
+    .item{
+        // border:2px solid grey; ;
+        height: auto;
+        width: auto;
+        // border-radius: 20px;
+        transition: opacity 0.7s ease-in-out;
+    }
         
-        .item{
-            border:2px solid grey; ;
-            height: auto;
-            width: auto;
-            border-radius: 20px;
+        .item:hover{
+            opacity: 0.7;
         }
-        
+
+        //***FOTOS MATERNIDAD***//
         .caja1{
-            background-image: url(../imagenes/maternity1.jpg);
+            background-image: url(../imagenes/galeria/maternidad/maternity1.jpg);
             background-size: cover;
         }
         
         .caja2{
-            background-image: url(../imagenes/maternity2.jpg);
+            background-image: url(../imagenes/galeria/maternidad/maternity2.jpg);
             background-size: cover;
             background-position: center;
         }
         
         .caja3{
-            background-image: url(../imagenes/maternity3.jpg);
+            background-image: url(../imagenes/galeria/maternidad/maternity3.jpg);
             background-size: cover;
             background-position: center;
         }
         
         .caja4{
-            background-image: url(../imagenes/new_born1.jpg);
+            background-image: url(../imagenes/galeria/maternidad/maternity4.jpg);
             background-size: cover;
             background-position: center;
         }
         
         .caja5{
-            background-image: url(../imagenes/new_born2.jpg);
+            background-image: url(../imagenes/galeria/maternidad/SCF_1961.jpg);
             background-size: cover;
             background-position: center;
         }
         
         .caja6{
-            background-image: url(../imagenes/new_born3.jpg);
+            background-image: url(../imagenes/galeria/maternidad/SCF_1979.jpg);
             background-size:cover;
             background-position:center;
         }
         
         .caja7{
-            background-image: url(../imagenes/primer_añito2.jpg);
+            background-image: url(../imagenes/galeria/maternidad/SCF_1982.jpg);
             background-size:cover;
             background-position:center;
-            grid-column-start: 1;
+        }
+
+        .caja8{
+            background-image: url(../imagenes/galeria/maternidad/SCF_4638.jpg);
+            background-size:cover;
+            background-position:center;
+        }
+
+        .caja9{
+            background-image: url(../imagenes/galeria/maternidad/SCF_5021.jpg);
+            background-size:cover;
+            background-position:center;
+        }
+
+        .caja10{
+            background-image: url(../imagenes/galeria/maternidad/SCF_5139.jpg);
+            background-size:cover;
+            background-position:center;
+        }
+
+        .caja11{
+            background-image: url(../imagenes/galeria/maternidad/SCF_5154.jpg);
+            background-size:cover;
+            background-position:center;
+        }
+
+        .caja12{
+            background-image: url(../imagenes/galeria/maternidad/SCF_6409.jpg);
+            background-size:cover;
+            background-position:center;
+        }
+
+        .caja13{
+            background-image: url(../imagenes/galeria/maternidad/SCF_6431.jpg);
+            background-size:cover;
+            background-position:center;
+            margin-bottom: -60px;
+        }
+
+        .caja14{
+            background-image: url(../imagenes/galeria/maternidad/SCF_6861.jpg);
+            background-size:cover;
+            background-position:center;
+            grid-column-start: 2;
             grid-column-end: 4;
-            grid-row-start: 3;
-            grid-row-end: 5;
+            margin-bottom: -60px;
         }
+
+        //***FIN FOTOS MATERNIDAD***//
         }
-    
+
+        @media only screen and (min-width: 1201px){
+            .sesionesTitulo{
+                color: $color;
+                text-align: center;
+                font-family: 'Comfortaa', cursive;
+                margin-bottom: 40px;
+                font-weight: bold;
+                text-shadow: 1px 1px 1px grey; 
+                /* text-shadow: 2px 2px 2px  grey; */
+            }
+            
+        
+            .galeria{
+                color: $color;
+                text-align: center;
+                font-family: 'Comfortaa', cursive;
+                margin-bottom: 40px;
+                font-weight: bold;
+                text-shadow: 2px 2px 2px  grey;
+            }
+            
+          
+            .contenedor{
+                display: grid;
+                grid-template-columns: repeat(3, 350px);
+                grid-template-rows: repeat(5, 350px);
+                justify-content: center;
+                margin-bottom: 150px;
+                grid-column-gap: 2%;
+                grid-row-gap: 4%;
+                height: 100%;
+            }
+           
+        .item{
+            // border:2px solid grey; ;
+            height: auto;
+            width: auto;
+            // border-radius: 20px;
+            transition: opacity 0.7s ease-in-out;
+        }
+            
+            .item:hover{
+                opacity: 0.7;
+            }
+
+            //***FOTOS MATERNIDAD***//
+            .caja1{
+                background-image: url(../imagenes/galeria/maternidad/maternity1.jpg);
+                background-size: cover;
+            }
+            
+            .caja2{
+                background-image: url(../imagenes/galeria/maternidad/maternity2.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            
+            .caja3{
+                background-image: url(../imagenes/galeria/maternidad/maternity3.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            
+            .caja4{
+                background-image: url(../imagenes/galeria/maternidad/maternity4.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            
+            .caja5{
+                background-image: url(../imagenes/galeria/maternidad/SCF_1961.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            
+            .caja6{
+                background-image: url(../imagenes/galeria/maternidad/SCF_1979.jpg);
+                background-size:cover;
+                background-position:center;
+            }
+            
+            .caja7{
+                background-image: url(../imagenes/galeria/maternidad/SCF_1982.jpg);
+                background-size:cover;
+                background-position:center;
+            }
+
+            .caja8{
+                background-image: url(../imagenes/galeria/maternidad/SCF_4638.jpg);
+                background-size:cover;
+                background-position:center;
+            }
+
+            .caja9{
+                background-image: url(../imagenes/galeria/maternidad/SCF_5021.jpg);
+                background-size:cover;
+                background-position:center;
+            }
+
+            .caja10{
+                background-image: url(../imagenes/galeria/maternidad/SCF_5139.jpg);
+                background-size:cover;
+                background-position:center;
+            }
+
+            .caja11{
+                background-image: url(../imagenes/galeria/maternidad/SCF_5154.jpg);
+                background-size:cover;
+                background-position:center;
+            }
+
+            .caja12{
+                background-image: url(../imagenes/galeria/maternidad/SCF_6409.jpg);
+                background-size:cover;
+                background-position:center;
+            }
+
+            .caja13{
+                background-image: url(../imagenes/galeria/maternidad/SCF_6431.jpg);
+                background-size:cover;
+                background-position:center;
+            }
+
+            .caja14{
+                background-image: url(../imagenes/galeria/maternidad/SCF_6861.jpg);
+                background-size:cover;
+                background-position:center;
+                grid-column-start: 2;
+                grid-column-end: 4;
+            }
+
+            //***FIN FOTOS MATERNIDAD***//
+            }
 
