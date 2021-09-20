@@ -1,0 +1,440 @@
+$color: rgba(98, 99, 99, 0.796); 
+$font-family: 'Quattrocento', serif;
+@media only screen and (min-width: 320px) and (max-width: 425px){
+$text-align: center;
+$margin-left: 100px;
+
+.galeria{
+    color: $color;
+    text-align: center;
+    font-family: $font-family;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.main .item{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedorMB .item{
+margin-top: 50px;
+}
+
+.item{
+    height: 300px;
+    width: 300px;
+    transition: opacity 0.7s ease-in-out;
+}
+
+
+.item:hover{
+    opacity: 0.7;
+}
+
+
+.MB1{
+    background-image: url(../imagenes/galeria/newborn/DSC_0093.jpg);
+    background-size: cover;
+    padding: 50px;
+}
+
+.MB2{
+    background-image: url(../imagenes/galeria/newborn/SCF_4224.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.MB3{
+    background-image: url(../imagenes/galeria/newborn/SCF_4268.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.MB4{
+    background-image: url(../imagenes/galeria/newborn/SCF_4312.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.MB5{
+    background-image: url(../imagenes/galeria/newborn/SCF_5488.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.MB6{
+    background-image: url(../imagenes/galeria/newborn/SCF_6539.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.MB7{
+    background-image: url(../imagenes/galeria/newborn/SCF_6631.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.MB8{
+    background-image: url(../imagenes/galeria/newborn/SCF_7654.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.MB9{
+    background-image: url(../imagenes/galeria/newborn/SCF_7669.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.MB10{
+    background-image: url(../imagenes/galeria/newborn/SCF_7689.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.MB11{
+    background-image: url(../imagenes/galeria/newborn/SCF_8761.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.MB12{
+    background-image: url(../imagenes/galeria/newborn/SCF_8796.jpg);
+    background-size:cover;
+    background-position:center;
+}
+.footer{
+    margin-top: 30px;;
+}
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px){
+     
+    
+    .galeria{
+        color: $color;
+        text-align: center;
+        font-family: $font-family;
+        margin-bottom: 40px;
+        font-weight: bold;
+    }
+
+    
+    .contenedorMB{
+        display: grid;
+        grid-template-columns: repeat(2, 220px);
+        grid-template-rows: repeat(6, 220px);
+        justify-content: center;
+        margin-bottom: 150px;
+        grid-column-gap: 2%;
+        grid-row-gap: 4%;
+        height: 100%;
+    }
+
+.item{
+    height: auto;
+    width: auto;
+    transition: opacity 0.7s ease-in-out;
+}
+    
+    .item:hover{
+        opacity: 0.7;
+    }
+
+    .MB1{
+        background-image: url(../imagenes/galeria/newborn/DSC_0093.jpg);
+        background-size: cover;
+        
+    }
+    
+    .MB2{
+        background-image: url(../imagenes/galeria/newborn/SCF_4224.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .MB3{
+        background-image: url(../imagenes/galeria/newborn/SCF_4268.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .MB4{
+        background-image: url(../imagenes/galeria/newborn/SCF_4312.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .MB5{
+        background-image: url(../imagenes/galeria/newborn/SCF_5488.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .MB6{
+        background-image: url(../imagenes/galeria/newborn/SCF_6539.jpg);
+        background-size:cover;
+        background-position:center;
+    }
+    
+    .MB7{
+        background-image: url(../imagenes/galeria/newborn/SCF_6631.jpg);
+        background-size:cover;
+        background-position:center;
+    }
+    
+    .MB8{
+        background-image: url(../imagenes/galeria/newborn/SCF_7654.jpg);
+        background-size:cover;
+        background-position:center;
+    }
+    
+    .MB9{
+        background-image: url(../imagenes/galeria/newborn/SCF_7669.jpg);
+        background-size:cover;
+        background-position:center;
+    }
+    
+    .MB10{
+        background-image: url(../imagenes/galeria/newborn/SCF_7689.jpg);
+        background-size:cover;
+        background-position:center;
+    }
+    
+    .MB11{
+        background-image: url(../imagenes/galeria/newborn/SCF_8761.jpg);
+        background-size:cover;
+        background-position:center;
+    }
+    
+    .MB12{
+        background-image: url(../imagenes/galeria/newborn/SCF_8796.jpg);
+        background-size:cover;
+        background-position:center;
+    }
+    .footer{
+        margin-top: 340px;;
+    }
+    }
+    
+    
+    @media only screen and (min-width: 769px) and (max-width: 1024px){
+
+    
+        .galeria{
+            color: $color;
+            text-align: center;
+            font-family: $font-family;
+            margin-bottom: 40px;
+            font-weight: bold;
+        }
+        
+      
+        .contenedorMB{
+            display: grid;
+            grid-template-columns: repeat(2, 360px);
+            grid-template-rows: repeat(6, 360px);
+            justify-content: center;
+            margin-bottom: 150px;
+            grid-column-gap: 2%;
+            grid-row-gap: 4%;
+            height: 100%;
+        }
+       
+    .item{
+        height: auto;
+        width: auto;
+        transition: opacity 0.7s ease-in-out;
+    }
+        
+        .item:hover{
+            opacity: 0.7;
+        }
+
+        .MB1{
+            background-image: url(../imagenes/galeria/newborn/DSC_0093.jpg);
+            background-size: cover;
+            padding: 50px;
+        }
+        
+        .MB2{
+            background-image: url(../imagenes/galeria/newborn/SCF_4224.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .MB3{
+            background-image: url(../imagenes/galeria/newborn/SCF_4268.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .MB4{
+        background-image: url(../imagenes/galeria/newborn/SCF_4312.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .MB5{
+            background-image: url(../imagenes/galeria/newborn/SCF_5488.jpg);
+
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .MB6{
+            background-image: url(../imagenes/galeria/newborn/SCF_6539.jpg);
+            background-size:cover;
+            background-position:center;
+        }
+        
+        .MB7{
+            background-image: url(../imagenes/galeria/newborn/SCF_6631.jpg);
+            background-size:cover;
+            background-position:center;
+        }
+        
+        .MB8{
+            background-image: url(../imagenes/galeria/newborn/SCF_7654.jpg);
+            background-size:cover;
+            background-position:center;
+        }
+        
+        .MB9{
+            background-image: url(../imagenes/galeria/newborn/SCF_7669.jpg);
+            background-size:cover;
+            background-position:center;
+        }
+        
+        .MB10{
+            background-image: url(../imagenes/galeria/newborn/SCF_7689.jpg);
+            background-size:cover;
+            background-position:center;
+        }
+        
+        .MB11{
+            background-image: url(../imagenes/galeria/newborn/SCF_8761.jpg);
+            background-size:cover;
+            background-position:center;
+        }
+        
+        .MB12{
+            background-image: url(../imagenes/galeria/newborn/SCF_8796.jpg);
+            background-size:cover;
+            background-position:center;
+        }
+        .footer{
+            margin-top: 480px;
+        }
+        }
+
+        @media only screen and (min-width: 1025px){
+
+            .galeria{
+                color: $color;
+                text-align: center;
+                font-family: $font-family;
+                margin-bottom: 40px;
+                font-weight: bold;
+            }
+            
+          
+            .contenedorMB{
+                display: grid;
+                grid-template-columns: repeat(3, 330px);
+                grid-template-rows: repeat(4, 330px);
+                justify-content: center;
+                margin-bottom: 150px;
+                grid-column-gap: 2%;
+                grid-row-gap: 4%;
+                height: 100%;
+            }
+           
+        .item{
+            height: auto;
+            width: auto;
+            transition: opacity 0.7s ease-in-out;
+        }
+            
+            .item:hover{
+                opacity: 0.7;
+            }
+
+            //***FOTOS MATERNIDAD***//
+            .MB1{
+                background-image: url(../imagenes/galeria/newborn/DSC_0093.jpg);
+                background-size: cover;
+                padding: 50px;
+            }
+            
+            .MB2{
+                background-image: url(../imagenes/galeria/newborn/SCF_4224.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            
+            .MB3{
+                background-image: url(../imagenes/galeria/newborn/SCF_4268.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            
+            .MB4{
+                background-image: url(../imagenes/galeria/newborn/SCF_4312.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            
+            .MB5{
+                background-image: url(../imagenes/galeria/newborn/SCF_5488.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            
+            .MB6{
+                background-image: url(../imagenes/galeria/newborn/SCF_6539.jpg);
+                background-size:cover;
+                background-position:center;
+            }
+            
+            .MB7{
+                background-image: url(../imagenes/galeria/newborn/SCF_6631.jpg);
+                background-size:cover;
+                background-position:center;
+            }
+            
+            .MB8{
+                background-image: url(../imagenes/galeria/newborn/SCF_7654.jpg);
+                background-size:cover;
+                background-position:center;
+            }
+            
+            .MB9{
+                background-image: url(../imagenes/galeria/newborn/SCF_7669.jpg);
+                background-size:cover;
+                background-position:center;
+            }
+            
+            .MB10{
+                background-image: url(../imagenes/galeria/newborn/SCF_7689.jpg);
+                background-size:cover;
+                background-position:center;
+            }
+            
+            .MB11{
+                background-image: url(../imagenes/galeria/newborn/SCF_8761.jpg);
+                background-size:cover;
+                background-position:center;
+            }
+            
+            .MB12{
+                background-image: url(../imagenes/galeria/newborn/SCF_8796.jpg);
+                background-size:cover;
+                background-position:center;
+            }
+
+            .footer{
+                margin-top: 229px;
+            }
+            }
+

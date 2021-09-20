@@ -5,8 +5,130 @@
     padding: 40px;
     text-align: center;
     margin-top: 350px; 
-
 }
+
+.footerIndex{
+    height: 100%;
+    font-size: 15px;
+    background-color:rgb(209, 208, 206);
+    padding: 40px;
+    text-align: center;
+}
+
+.footerSobreMi{
+    height: 100%;
+    font-size: 15px;
+    background-color:rgb(209, 208, 206);
+    padding: 40px;
+    text-align: center;
+    margin-top: 30px; 
+}
+
+.footerTurno{
+    height: 100%;
+    font-size: 15px;
+    background-color:rgb(209, 208, 206);
+    padding: 40px;
+    text-align: center;
+    margin-top: 30px; 
+}
+
+
+// FOOTER GALERIA MATERNIDAD//
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+    .footerMaternidad{
+        margin-top: 30px;
+        height: 100%;
+        font-size: 15px;
+        background-color:rgb(209, 208, 206);
+        padding: 40px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px){
+    .footerMaternidad{
+    margin-top: 150px;
+    height: 100%;
+    font-size: 15px;
+    background-color:rgb(209, 208, 206);
+    padding: 40px;
+    text-align: center;
+}
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .footerMaternidad{
+        margin-top: 500px;
+        height: 100%;
+        font-size: 15px;
+        background-color:rgb(209, 208, 206);
+        padding: 40px;
+        text-align: center;
+}
+}
+
+@media only screen and (min-width: 1025px){
+    .footerMaternidad{
+        margin-top: 200px;
+        height: 100%;
+        font-size: 15px;
+        background-color:rgb(209, 208, 206);
+        padding: 40px;
+        text-align: center;
+}
+}
+
+// FIN FOOTER GALERIA MATERNIDAD//
+
+
+// FOOTER GALERIA PRIMER AÑITO//
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+    .footerPA{
+        margin-top: 30px;
+        height: 100%;
+        font-size: 15px;
+        background-color:rgb(209, 208, 206);
+        padding: 40px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px){
+    .footerPA{
+    margin-top: 150px;
+    height: 100%;
+    font-size: 15px;
+    background-color:rgb(209, 208, 206);
+    padding: 40px;
+    text-align: center;
+}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .footerPA{
+        margin-top: 500px;
+        height: 100%;
+        font-size: 15px;
+        background-color:rgb(209, 208, 206);
+        padding: 40px;
+        text-align: center;
+}
+}
+
+@media only screen and (min-width: 1025px){
+    .footerPA{
+        margin-top: 200px;
+        height: 100%;
+        font-size: 15px;
+        background-color:rgb(209, 208, 206);
+        padding: 40px;
+        text-align: center;
+}
+}
+
+
 .footerTexto{
     font-family: 'Comfortaa', cursive;
     font-size: 15px;

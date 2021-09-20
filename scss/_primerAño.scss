@@ -1,0 +1,421 @@
+$color: rgba(240, 77, 147, 0.796);
+$font-family: 'Quattrocento', serif;
+@media only screen and (min-width: 320px) and (max-width: 425px){
+$text-align: center;
+$margin-left: 100px;
+
+.galeria{
+    color: $color;
+    text-align: center;
+    font-family: $font-family;
+    padding: 20px;
+    font-weight: bold;
+}
+
+
+.main .item{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedorPA .item{
+    margin-top: 50px;
+    }
+
+.item{
+    height: 300px;
+    width: 300px;
+    transition: opacity 0.7s ease-in-out;
+}
+
+
+.item:hover{
+    opacity: 0.7;
+}
+
+//***FOTOS MATERNIDAD***//
+.PA1{
+    background-image: url(../imagenes/galeria/primeraño/SCF_2765.jpg);
+    background-size: cover;
+}
+
+.PA2{
+    background-image: url(../imagenes/galeria/primeraño/SCF_2822.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.PA3{
+    background-image: url(../imagenes/galeria/primeraño/SCF_2888.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.PA4{
+    background-image: url(../imagenes/galeria/primeraño/SCF_2979.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.PA5{
+    background-image: url(../imagenes/galeria/primeraño/SCF_4108.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.PA6{
+    background-image: url(../imagenes/galeria/primeraño/SCF_4193.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.PA7{
+    background-image: url(../imagenes/galeria/primeraño/SCF_6772.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.PA8{
+    background-image: url(../imagenes/galeria/primeraño/SCF_7080.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.PA9{
+    background-image: url(../imagenes/galeria/primeraño/SCF_7484.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.PA10{
+    background-image: url(../imagenes/galeria/primeraño/SCF_7551.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.PA11{
+    background-image: url(../imagenes/galeria/primeraño/SCF_7571.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.PA12{
+    background-image: url(../imagenes/galeria/primeraño/SCF_8428.jpg);
+    background-size:cover;
+    background-position:center;
+}
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px){
+
+    .galeria{
+        color: $color;
+        text-align: center;
+        font-family: $font-family;
+        padding: 20px;
+        font-weight: bold;
+    }
+    
+    .contenedorPA{
+        display: grid;
+        grid-template-columns: repeat(2, 220px);
+        grid-template-rows: repeat(7, 220px);
+        justify-content: center;
+        margin-bottom: 150px;
+        grid-column-gap: 2%;
+        grid-row-gap: 4%;
+        height: 100%;
+    }
+
+.item{
+    height: auto;
+    width: auto;
+    transition: opacity 0.7s ease-in-out;
+}
+    
+    .item:hover{
+        opacity: 0.7;
+    }
+
+    .PA1{
+        background-image: url(../imagenes/galeria/primeraño/SCF_2765.jpg);
+        background-size: cover;
+    }
+    
+    .PA2{
+        background-image: url(../imagenes/galeria/primeraño/SCF_2822.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .PA3{
+        background-image: url(../imagenes/galeria/primeraño/SCF_2888.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .PA4{
+        background-image: url(../imagenes/galeria/primeraño/SCF_2979.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .PA5{
+        background-image: url(../imagenes/galeria/primeraño/SCF_4108.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .PA6{
+        background-image: url(../imagenes/galeria/primeraño/SCF_4193.jpg);
+        background-size:cover;
+        background-position:center;
+    }
+    
+    .PA7{
+        background-image: url(../imagenes/galeria/primeraño/SCF_6772.jpg);
+        background-size:cover;
+        background-position:center;
+    }
+    
+    .PA8{
+        background-image: url(../imagenes/galeria/primeraño/SCF_7080.jpg);
+        background-size:cover;
+        background-position:center;
+    }
+    
+    .PA9{
+        background-image: url(../imagenes/galeria/primeraño/SCF_7484.jpg);
+        background-size:cover;
+        background-position:center;
+    }
+    
+    .PA10{
+        background-image: url(../imagenes/galeria/primeraño/SCF_7551.jpg);
+        background-size:cover;
+        background-position:center;
+    }
+    
+    .PA11{
+        background-image: url(../imagenes/galeria/primeraño/SCF_7571.jpg);
+        background-size:cover;
+        background-position:center;
+    }
+    
+    .PA12{
+        background-image: url(../imagenes/galeria/primeraño/SCF_8428.jpg);
+        background-size:cover;
+        background-position:center;
+    }
+    }
+    
+    
+    @media only screen and (min-width: 769px) and (max-width: 1024px){
+
+        .galeria{
+            color: $color;
+            text-align: center;
+            font-family: $font-family;
+            padding: 20px;
+            font-weight: bold;
+        }
+        
+      
+        .contenedorPA{
+            display: grid;
+            grid-template-columns: repeat(2, 360px);
+            grid-template-rows: repeat(6, 360px);
+            justify-content: center;
+            margin-bottom: 150px;
+            grid-column-gap: 2%;
+            grid-row-gap: 4%;
+            height: 100%;
+        }
+       
+    .item{
+        height: auto;
+        width: auto;
+        transition: opacity 0.7s ease-in-out;
+    }
+        .item:hover{
+            opacity: 0.7;
+        }
+
+        //***FOTOS MATERNIDAD***//
+        
+        .PA1{
+            background-image: url(../imagenes/galeria/primeraño/SCF_2765.jpg);
+            background-size: cover;
+        }
+        
+        .PA2{
+            background-image: url(../imagenes/galeria/primeraño/SCF_2822.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .PA3{
+            background-image: url(../imagenes/galeria/primeraño/SCF_2888.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .PA4{
+            background-image: url(../imagenes/galeria/primeraño/SCF_2979.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .PA5{
+            background-image: url(../imagenes/galeria/primeraño/SCF_4108.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .PA6{
+            background-image: url(../imagenes/galeria/primeraño/SCF_4193.jpg);
+            background-size:cover;
+            background-position:center;
+        }
+        
+        .PA7{
+            background-image: url(../imagenes/galeria/primeraño/SCF_6772.jpg);
+            background-size:cover;
+            background-position:center;
+        }
+        
+        .PA8{
+            background-image: url(../imagenes/galeria/primeraño/SCF_7080.jpg);
+            background-size:cover;
+            background-position:center;
+        }
+        
+        .PA9{
+            background-image: url(../imagenes/galeria/primeraño/SCF_7484.jpg);
+            background-size:cover;
+            background-position:center;
+        }
+        
+        .PA10{
+            background-image: url(../imagenes/galeria/primeraño/SCF_7551.jpg);
+            background-size:cover;
+            background-position:center;
+        }
+        
+        .PA11{
+            background-image: url(../imagenes/galeria/primeraño/SCF_7571.jpg);
+            background-size:cover;
+            background-position:center;
+        }
+        
+        .PA12{
+            background-image: url(../imagenes/galeria/primeraño/SCF_8428.jpg);
+            background-size:cover;
+            background-position:center;
+        }
+        }
+
+        @media only screen and (min-width: 1025px){
+            .galeria{
+                color: $color;
+                text-align: center;
+                font-family: $font-family;
+                padding: 20px;
+                padding: 20px;
+                font-weight: bold;
+            }
+            
+          
+            .contenedorPA{
+                display: grid;
+                grid-template-columns: repeat(3, 330px);
+                grid-template-rows: repeat(4, 330px);
+                justify-content: center;
+                margin-bottom: 150px;
+                grid-column-gap: 2%;
+                grid-row-gap: 4%;
+                height: 100%;
+            }
+           
+        .item{
+            height: auto;
+            width: auto;
+            transition: opacity 0.7s ease-in-out;
+        }
+            
+            .item:hover{
+                opacity: 0.7;
+            }
+
+            //***FOTOS MATERNIDAD***//
+            .PA1{
+                background-image: url(../imagenes/galeria/primeraño/SCF_2765.jpg);
+                background-size: cover;
+            }
+            
+            .PA2{
+                background-image: url(../imagenes/galeria/primeraño/SCF_2822.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            
+            .PA3{
+                background-image: url(../imagenes/galeria/primeraño/SCF_2888.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            
+            .PA4{
+                background-image: url(../imagenes/galeria/primeraño/SCF_2979.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            
+            .PA5{
+                background-image: url(../imagenes/galeria/primeraño/SCF_4108.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            
+            .PA6{
+                background-image: url(../imagenes/galeria/primeraño/SCF_4193.jpg);
+                background-size:cover;
+                background-position:center;
+            }
+            
+            .PA7{
+                background-image: url(../imagenes/galeria/primeraño/SCF_6772.jpg);
+                background-size:cover;
+                background-position:center;
+            }
+            
+            .PA8{
+                background-image: url(../imagenes/galeria/primeraño/SCF_7080.jpg);
+                background-size:cover;
+                background-position:center;
+            }
+            
+            .PA9{
+                background-image: url(../imagenes/galeria/primeraño/SCF_7484.jpg);
+                background-size:cover;
+                background-position:center;
+            }
+            
+            .PA10{
+                background-image: url(../imagenes/galeria/primeraño/SCF_7551.jpg);
+                background-size:cover;
+                background-position:center;
+            }
+            
+            .PA11{
+                background-image: url(../imagenes/galeria/primeraño/SCF_7571.jpg);
+                background-size:cover;
+                background-position:center;
+            }
+            
+            .PA12{
+                background-image: url(../imagenes/galeria/primeraño/SCF_8428.jpg);
+                background-size:cover;
+                background-position:center;
+            }
+            }
