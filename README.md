@@ -1,14 +1,20 @@
-## Final Project - Web Development Course at [Coderhouse](https://www.coderhouse.com/)
+### The purpose of the Web Development Course at [Coderhouse](https://www.coderhouse.com/) was to learn the basics and the fundamentals of the Web Development.
 
-This website (Link **[here](https://edelmiroanton.github.io/Proyecto-Final---DW/index.html)**) try to show the differents styles of photos that the photographer Sofia Campioni does :camera:
+#### The technologies, tools and best practices we apply were:
 
-If I were you, I'll take a look to her 
+ :pushpin: HTML <br>
+ :pushpin: CSS <br>
+ :pushpin: SASS <br>
+ :pushpin: Bootstrap <br>
+ :pushpin: Git <br>
+ :pushpin: SEO 
+
+#### This website (Link **[here](https://edelmiroanton.github.io/Proyecto-Final---DW/index.html)**) try to show the differents styles of photos that the photographer Sofia Campioni does :camera:
+
 <div>
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">(https://www.instagram.com/sofiacampionifoto/?hl=en")
+<h4>If I were you, I'll take a look to her  
+<a href="https://www.instagram.com/sofiacampionifoto/?hl=en"">
+<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+</a>
+ and enjoy the entire work! </h4>
 <div>
-
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" <a href="https://www.instagram.com/sofiacampionifoto/?hl=en"  </a>>
-
-:construction: Site in progress. Working to add some features with JS :construction:
-
-
