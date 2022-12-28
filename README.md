@@ -9,7 +9,7 @@
  :pushpin: Git <br>
  :pushpin: SEO 
 
-#### This website (Link **[here](https://edelmiroanton.github.io/Proyecto-Final---DW/index.html)**) try to show the differents styles of photos that the photographer Sofia Campioni does :camera:
+#### This website (Link **[here](https://edelmiroanton.github.io/WD-Course-Final-Project)**) try to show the differents styles of photos that the photographer Sofia Campioni does :camera:
 
 <div>
 <h4>If I were you, I'll take a look to her  
