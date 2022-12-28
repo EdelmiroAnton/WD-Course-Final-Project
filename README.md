@@ -1,4 +1,4 @@
-### The purpose of the Web Development Course at [Coderhouse](https://www.coderhouse.com/) was to learn the basics and the fundamentals of the Web Development.
+### The purpose of the Web Development Course at [Coderhouse](https://www.coderhouse.com/) was learn the basics and the fundamentals of the Web Development.
 
 #### The technologies, tools and best practices we apply were:
 
@@ -16,5 +16,5 @@
 <a href="https://www.instagram.com/sofiacampionifoto/?hl=en"">
 <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
 </a>
- and enjoy the entire work! </h4>
+ and enjoy her entire work! </h4>
 <div>
